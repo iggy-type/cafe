@@ -134,10 +134,12 @@ header .link ul img {
   padding-left: 1em;
 }
 
-.explanation > p:last-of-type {
+.explanation > p:nth-last-of-type(-n+2) {
   font-size: 1.6rem;
+  line-height: 1.2;
   padding-left: 3rem;
   margin: 0;
+  text-align: left;
 }
 
 main .backgrnd {
